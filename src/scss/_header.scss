@@ -1,0 +1,24 @@
+header {
+  height: 70vh;
+  background-image: url("/images/lidye-1Shk_PkNkNw-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  nav {
+    background-color: map-get($colors, bg1);
+    z-index: 500;
+    .link {
+      color: map-get($colors, color1);
+    }
+  }
+  .head {
+    position: absolute;
+    top: 15%;
+    p {
+      font-size: 2rem;
+    }
+    a {
+      background-color: map-get($colors, color1);
+    }
+  }
+}
